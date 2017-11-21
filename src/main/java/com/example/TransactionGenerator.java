@@ -65,6 +65,6 @@ public class TransactionGenerator {
 
 
     private Long generateAccountNum(){
-        return ((long) (random.nextDouble() * 100000000000000L));
+        return ((long) (random.nextDouble() * 10000000000000000L));
     }
 }
